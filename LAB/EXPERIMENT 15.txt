@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    char user1[20],user2[20];
+    char file1[20],file2[20];
+
+    printf("Enter User1 Name: ");
+    scanf("%s",user1);
+
+    printf("Enter File for User1: ");
+    scanf("%s",file1);
+
+    printf("Enter User2 Name: ");
+    scanf("%s",user2);
+
+    printf("Enter File for User2: ");
+    scanf("%s",file2);
+
+    printf("\nDirectory Structure\n");
+
+    printf("%s --> %s\n",user1,file1);
+    printf("%s --> %s\n",user2,file2);
+
+    return 0;
+}
